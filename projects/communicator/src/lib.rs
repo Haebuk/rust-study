@@ -2,8 +2,8 @@ pub fn add(left: usize, right: usize) -> usize {
     left + right
 }
 
-mod client;
-mod network;
+pub mod client;
+pub mod network;
 
 #[cfg(test)]
 mod tests {
