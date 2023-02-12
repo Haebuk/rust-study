@@ -1,3 +1,3 @@
-fn connect() {} // network::connect()
+pub fn connect() {} // network::connect()
 
 mod server;

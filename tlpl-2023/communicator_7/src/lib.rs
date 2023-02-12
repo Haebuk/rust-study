@@ -1,6 +1,6 @@
-mod client; // contents of client.rs
-            // 러스트는 기본적으로 src/lib.rs만 쳐다보기 때문에 명시적으로 다른 파일 추가
-mod network;
+pub mod client; // contents of client.rs
+                // 러스트는 기본적으로 src/lib.rs만 쳐다보기 때문에 명시적으로 다른 파일 추가
+pub mod network;
 
 #[cfg(test)]
 mod tests {
