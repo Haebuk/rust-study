@@ -4,12 +4,13 @@ pub mod network;
 
 #[cfg(test)]
 mod tests {
-    use super::*;
+    // super를 사용해 현재 모듈에서 형제 모듈을 가져온다
+    // 현재 모듈은 tests임
+    use super::client;
 
     #[test]
     fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
+        client::connect();
     }
 }
 

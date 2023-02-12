@@ -1,1 +1,1 @@
-fn connect() {} // network::server::connect()
+pub fn connect() {} // network::server::connect()
