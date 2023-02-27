@@ -68,5 +68,5 @@ fn main() {
         let count = map.entry(word).or_insert(0);
         *count += 1;
     }
-    println!("{:?}", map); // {"wonderful": 1, "world": 2, "hello": 1}
+    println!("{:?}", map); // {"wonderful": 1, "world": 2, "hello": 1} 
 }
